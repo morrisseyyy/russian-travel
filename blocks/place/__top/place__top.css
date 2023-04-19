@@ -1,0 +1,25 @@
+.place__top {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 48px;
+  gap: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__top{
+    gap: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__top {
+    gap: 28px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__top {
+    gap: 32px;
+    flex-direction: column;
+  }
+}
