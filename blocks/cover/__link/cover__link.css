@@ -25,7 +25,6 @@
   background-color: #2A2C2F;
   opacity: 0.3;
   display: block;
-  z-index: 1;
   transition-property: opacity;
   transition-duration: 0.1s;
   transition-timing-function: ease-in-out;
