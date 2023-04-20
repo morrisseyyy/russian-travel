@@ -3,7 +3,7 @@
   height: 100%;
   margin: auto;
   background-image: url(../../../images/cover-trains.jpg);
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   text-decoration: none;
   display: flex;

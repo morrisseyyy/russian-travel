@@ -4,26 +4,23 @@
   margin-inline-start: 0;
   margin-inline-end: 0;
   max-width: 284px;
-  height: 213px;
+  height: auto;
 }
 
 @media screen and (max-width: 1024px) {
   .photo-grid__item {
     max-width: 300px;
-    height: 225px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .photo-grid__item {
     max-width: 352px;
-    height: 264px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .photo-grid__item {
     max-width: 288px;
-    height: 216px;
   }
 }
