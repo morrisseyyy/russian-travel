@@ -1,7 +1,8 @@
 .cover__title {
+  margin-block-start: 0;
+  margin-block-end: 0;
   display: block;
   width: 560px;
-  min-height: 152px;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -18,6 +19,5 @@
     font-size: 32px;
     line-height: 1.09;
     width: 288px;
-    min-height: 70px;
   }
 }
