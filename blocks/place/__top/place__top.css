@@ -5,20 +5,21 @@
   gap: 40px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .place__top{
     gap: 32px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .place__top {
     gap: 28px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .place__top {
+    padding-bottom: 32px;
     gap: 32px;
     flex-direction: column;
   }
